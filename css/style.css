@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .container {
     width: 750px;
-    margin: 3rem auto;
+    margin: 0 auto;
 }
 
 main {
@@ -28,4 +32,8 @@ main {
     height: 75px;
     background-color: none;
     outline: 0.1rem solid #000;
+}
+
+.active {
+    background-color: red;
 }
