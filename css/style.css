@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 750px;
+    margin: 3rem auto;
+}
+
+main {
+    background-color: #7fffd4;
+    padding: 3rem 0;
+}
+
+.row, .col-100 {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    background-color: none;
+    outline: 0.1rem solid #000;
+}
