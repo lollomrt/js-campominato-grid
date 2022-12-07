@@ -29,12 +29,19 @@ body {
     justify-content: space-between; 
 }
 
-.btn {
+.btn, #seleziona {
     background-color: #7fffd4;
-    border: 0.2 solid #000;
+    border: 0.2rem solid #000;
     border-radius: 0.5rem;
     padding: 0.5rem 1.5rem;
     font-weight: bold
+}
+
+#seleziona {
+    background-color: #fff;
+    padding: 0.5rem 0;
+    width: 15rem;
+    margin-right: 2rem;
 }
 
 .height-100 {
